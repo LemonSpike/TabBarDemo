@@ -12,6 +12,8 @@
 		4E3E34891D05E9E5003AF686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E34881D05E9E5003AF686 /* Assets.xcassets */; };
 		4E3E348C1D05E9E5003AF686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E348A1D05E9E5003AF686 /* LaunchScreen.storyboard */; };
 		4EEEF6411D05ED9E0026A3B9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEF6401D05ED9E0026A3B9 /* images */; };
+		4EEEF6431D05F5620026A3B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEF6421D05F5620026A3B9 /* HomeViewController.swift */; };
+		4EEEF6471D05F7900026A3B9 /* png in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEF6461D05F7900026A3B9 /* png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4E3E348B1D05E9E5003AF686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E3E348D1D05E9E5003AF686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EEEF6401D05ED9E0026A3B9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		4EEEF6421D05F5620026A3B9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4EEEF6461D05F7900026A3B9 /* png */ = {isa = PBXFileReference; lastKnownFileType = folder; path = png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				4E3E34811D05E9E5003AF686 /* AppDelegate.swift */,
 				4E3E34851D05E9E5003AF686 /* Main.storyboard */,
+				4EEEF6421D05F5620026A3B9 /* HomeViewController.swift */,
 				4E3E34881D05E9E5003AF686 /* Assets.xcassets */,
+				4EEEF6461D05F7900026A3B9 /* png */,
 				4EEEF6401D05ED9E0026A3B9 /* images */,
 				4E3E348A1D05E9E5003AF686 /* LaunchScreen.storyboard */,
 				4E3E348D1D05E9E5003AF686 /* Info.plist */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEEF6471D05F7900026A3B9 /* png in Resources */,
 				4EEEF6411D05ED9E0026A3B9 /* images in Resources */,
 				4E3E348C1D05E9E5003AF686 /* LaunchScreen.storyboard in Resources */,
 				4E3E34891D05E9E5003AF686 /* Assets.xcassets in Resources */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3E34821D05E9E5003AF686 /* AppDelegate.swift in Sources */,
+				4EEEF6431D05F5620026A3B9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
