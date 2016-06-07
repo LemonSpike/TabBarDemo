@@ -51,7 +51,7 @@
                             <constraint firstItem="iyO-d9-lEd" firstAttribute="centerY" secondItem="CBw-th-oVw" secondAttribute="centerY" id="gbr-r0-wfX"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="right-arrow.png" id="gdW-0Z-v1Y"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="png/right-arrow.png" id="gdW-0Z-v1Y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MnO-TJ-Us3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cross" image="cross-out.png" id="DTN-UR-yuW"/>
+                    <tabBarItem key="tabBarItem" title="Cross" image="png/cross-out.png" id="DTN-UR-yuW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HPw-Tn-QXX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,7 +89,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calendar" image="phone-call.png" id="ZVZ-Hf-QN9"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="png/phone-call.png" id="ZVZ-Hf-QN9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TtW-0u-tu1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -108,7 +108,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.47989206839999998" blue="0.1062409817" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="settings.png" id="BJT-BE-qFc"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="png/settings.png" id="BJT-BE-qFc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Rf-jr-3jl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,9 +116,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cross-out.png" width="24" height="24"/>
-        <image name="phone-call.png" width="24" height="24"/>
-        <image name="right-arrow.png" width="24" height="24"/>
-        <image name="settings.png" width="24" height="24"/>
+        <image name="png/cross-out.png" width="24" height="24"/>
+        <image name="png/phone-call.png" width="24" height="24"/>
+        <image name="png/right-arrow.png" width="24" height="24"/>
+        <image name="png/settings.png" width="24" height="24"/>
     </resources>
 </document>
